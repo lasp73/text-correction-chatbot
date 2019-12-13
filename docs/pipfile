@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+tqdm = "*"
+jupyter = "*"
+numpy = "*"
+pandas = "*"
+scikit-learn = "*"
+scipy = "*"
+hyperopt = "*"
+nltk = "*"
+symspellpy = "*"
+jiwer = "*"
+torch = "*"
+torchvision = "*"
+transformers = "2.1.1"
+# also needs 'punkt' from NLTK and https://github.com/samueljamesbell/m2-correct in the proper directory and setting up CUDA properly
+
+[requires]
+python_version = "3.7"
+ 
